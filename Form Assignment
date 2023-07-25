@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            background-color: blue;
+        }
+
+        body {
+            align-items: center;
+            background-color: white;
+            border-radius: 18px;
+
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        td,
+        tr {
+            padding: 10px;
+        }
+
+        h4 {
+            line-height: 3em;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration</h1>
+    <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personal
+        Details</h4>
+    <form>
+        <table>
+            <tr>
+                <th> Full Name</th>
+                <th>Date Of Birth</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your name"> </td>
+                <td><input type="text" placeholder="Enter birth date"> </td>
+                <td><input type="email" placeholder="Enter your email"> </td>
+            </tr>
+
+            <tr>
+                <th>Mobile Number</th>
+                <th>Gender</th>
+                <th>Occupation</th>
+            </tr>
+
+            <tr>
+                <td><input type="tel" placeholder="Enter mobile number"> </td>
+                <td><input type="text" placeholder="Enter your gender"> </td>
+                <td><input type="text" placeholder="Enter your occupation"> </td>
+            </tr>
+
+        </table>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idenity
+            Details</h4>
+
+        <table>
+            <tr>
+                <th>ID Type</th>
+                <th>ID Number</th>
+                <th>Issue Authority</th>
+            </tr>
+
+            <tr>
+                <td><input type="text" placeholder="Enter ID type"> </td>
+                <td><input type="text" placeholder="Enter ID number"> </td>
+                <td><input type="text" placeholder="Enter issue department"> </td>
+            </tr>
+
+            <tr>
+                <th>Issue Date</th>
+                <th>Issue State</th>
+                <th>Expiry Date</th>
+            </tr>
+
+            <tr>
+                <td><input type="text" placeholder="Enter ID issue date"> </td>
+                <td><input type="text" placeholder="Enter ID issue state"> </td>
+                <td><input type="text" placeholder="Enter ID expiry date"> </td>
+            </tr>
+        </table><br>
+        <button type="submit" style="background-color: blue; color: white; border-radius:3px ;">Next-></button>
+    </form>
+</body>
+
+</html>
